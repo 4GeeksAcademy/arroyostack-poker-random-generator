@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Rampart One", cursive !important;
+  background: rgb(230, 28, 95);
+}
+.container-fluid {
+  height: 100% !important;
+  background: url("https://images.pexels.com/photos/444964/pexels-photo-444964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(0, 7, 87, 0.59);
+}
+
+.card {
+  width: 290px;
+  height: 400px;
+}
+
+.icon-rotate {
+  transform: rotate(180deg);
+}
+
+main {
+  height: 100%;
+}
