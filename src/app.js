@@ -21,7 +21,7 @@ window.onload = function() {
     "King",
     "Queen",
     "Jack",
-    "Ace",
+    "Ace"
   ];
   // Posible numbers
   const getCard = () => {

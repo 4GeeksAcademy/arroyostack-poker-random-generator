@@ -1,5 +1,5 @@
 export const setSuitIcon = (icons, randomSuit) => {
-  [...icons].map((icon) => {
+  [...icons].map(icon => {
     if (randomSuit === "spades") {
       icon.innerHTML = `<h1>&spades;</h1>`;
     }
