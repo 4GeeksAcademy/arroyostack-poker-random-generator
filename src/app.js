@@ -21,7 +21,7 @@ window.onload = function() {
     "King",
     "Queen",
     "Jack",
-    "Ace"
+    "Ace",
   ];
   // Posible numbers
   const getCard = () => {
@@ -40,10 +40,12 @@ window.onload = function() {
     cardText.innerHTML = randomCardNumber;
   };
 
+  // Gets card on loading
+  getCard();
+  // Generates a new card when the button is clicked
   button.addEventListener("click", () => {
     getCard();
   });
-  getCard();
 
   setInterval(getCard, 10000);
 };
